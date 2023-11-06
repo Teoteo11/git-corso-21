@@ -42,3 +42,19 @@ git checkout nome_branch || git switch nome_branch
 # Comando per creare una branch
 git checkout -b nome_branch ( crea la branch, mi porta dentro essa )
 git branch nome_branch ( crea la branch )
+
+# Comando per eliminare una branch
+git branch -D nome_branch ( locale )
+git push --delete origin nome_branch ( remoto )
+
+# Comando per modificare una branch
+git branch -m nome_nuovo_branch
+git branch -m nome_vecchio_branch nome_nuovo_branch
+
+# Comando per mergiare una branch in un'altra
+git merge nome_branch
+git push -f
+
+
+
+
