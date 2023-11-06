@@ -35,3 +35,10 @@ git reset --hard
 
 # Revert
 git revert
+
+# Comando per spostarmi da una branch ad un'altra
+git checkout nome_branch || git switch nome_branch
+
+# Comando per creare una branch
+git checkout -b nome_branch ( crea la branch, mi porta dentro essa )
+git branch nome_branch ( crea la branch )
