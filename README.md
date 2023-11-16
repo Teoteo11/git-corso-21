@@ -64,4 +64,7 @@ git push -f
 git cherry-pick ID_COMMIT
 git push -f
 
+# Tips
+--set-upstream === -u
+
 
