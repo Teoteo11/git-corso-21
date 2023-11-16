@@ -55,6 +55,13 @@ git branch -m nome_vecchio_branch nome_nuovo_branch
 git merge nome_branch
 git push -f
 
+# Comando per eseguire il rebase
+git rebase nome_branch
+git rebase --continue || git rebase --abort
+git push -f
 
+# Comando per eseguire il cherry-pick
+git cherry-pick ID_COMMIT
+git push -f
 
 
